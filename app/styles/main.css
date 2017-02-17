@@ -27,3 +27,107 @@ body {
   line-height: 1;
   letter-spacing: -1px;
 }
+
+#test .arc2 {
+	stroke-weight:0.1;
+	fill: #3660b0;
+}
+
+#main {
+	width:600px;
+	height:200px;
+	margin: 0px auto;
+}
+
+#outer {
+	border-radius: 5px;
+	color: #000;
+}
+
+#div1, #div2, #div3, #div4 {
+	width: 33%;
+	height: 200px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#div2 .arc {
+	stroke-weight: 0.1;
+	fill: #f0a417;
+}
+
+#div2 .arc2 {
+	stroke-weight: 0.1;
+	fill: #b00d08;
+}
+
+#div3 .arc {
+	stroke-weight: 0.1;
+	fill: #1d871b;
+}
+
+.selectedRadial {
+	border-radius: 3px;
+	background: #f4f4f4;
+	color: #000;
+}
+
+.radial {
+	border-radius: 3px;
+	background: #FFFFFF;
+	color: #000;
+
+}
+
+.background {
+    fill: #FFFFFF;
+    fill-opacity: 0.01;
+}
+
+.component {
+    fill: #e1e1e1;
+}
+
+.component .label {
+    font-family: Myriad, "Helvetic Neue", Helvetica, Arial;
+    text-anchor: middle;
+    fill: #000;
+}
+
+.arc {
+    stroke-weight:0.1;
+    fill: #4e8fff;
+}
+
+
+.arc2 {
+    stroke-weight:0.1;
+    fill: #3660b0;
+}
+
+#dialog, #dialog2, #dialog3 {
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: .5rem;
+	padding: .5rem;
+	text-align: center;
+}
+
+	#dialog button, #dialog2 button, #dialog3 button {
+		margin-left: 4rem;
+	}
+
+.label {
+    font-family:  Myriad, "Helvetic Neue", Helvetica, Arial;
+    text-anchor: middle;
+}
+
+label {
+	display: inline-block;
+	width: 5em;
+}
+
+.radial-svg {
+    display: block;
+    margin: 0 auto;
+}
