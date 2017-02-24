@@ -1301,9 +1301,7 @@
 /* Basic */
 
 	html {
-		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: url("../images/overlay.png"), url("../images/bg.jpg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
@@ -1346,7 +1344,6 @@
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: #871e1e;
 		text-decoration: none;
 	}
