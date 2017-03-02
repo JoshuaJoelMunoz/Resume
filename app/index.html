@@ -9,12 +9,21 @@
 
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
     <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
     <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel.pack.js"></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.6"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script type="text/javascript" src="scripts/radial.js"></script>
+    <script src="https://use.fontawesome.com/a4ccf049d8.js"></script>
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
     <!-- endbuild -->
   </head>
 
@@ -314,44 +323,7 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-    <script language="JavaScript">
-
-      $(document).ready(function() {
-
-        $(".fancybox").fancybox({
-          maxWidth	: 1280,
-          maxHeight	: 720,
-          fitToView	: false,
-          width		: '80%',
-          height		: '80%',
-          autoSize	: false,
-          closeClick	: false,
-          openEffect	: 'elastic',
-          closeEffect	: 'elastic',
-          padding : 0
-        });
-
-        $(".image").fancybox({
-          openEffect	: 'elastic',
-          closeEffect	: 'elastic',
-
-          helpers : {
-            title : {
-              type : 'over'
-            }
-          }
-        });
-      });
-    </script>
-
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel.pack.js"></script>
-    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.6"></script>
-    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-    <script type="text/javascript" src="scripts/radial.js"></script>
-    <script src="https://use.fontawesome.com/a4ccf049d8.js"></script>
 
   </body>
 
