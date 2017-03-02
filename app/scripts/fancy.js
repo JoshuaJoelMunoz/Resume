@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(".fancybox").fancybox({
+	$('.fancybox').fancybox({
 		maxWidth	: 1280,
 		maxHeight	: 720,
 		fitToView	: false,
@@ -12,7 +12,7 @@ $(document).ready(function() {
 		padding : 0
 	});
 
-	$(".image").fancybox({
+	$('.image').fancybox({
 		openEffect	: 'elastic',
 		closeEffect	: 'elastic',
 
