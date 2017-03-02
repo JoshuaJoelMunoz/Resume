@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
     <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 
+    <script src="https://use.fontawesome.com/a4ccf049d8.js"></script>
+
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/reset.css" />
@@ -60,17 +62,27 @@
 						</header>
             <div class="section group">
               <div class="col span_1_of_3">
-                <div id="progress"
-                     data-percentage="50"
-                     data-track-width="12"
-                     data-track-colour="555555"
-                     data-fill-colour="00C0FF"
-                     data-text-colour="00C0FF"
-                     data-stroke-colour="FFFFFF"
-                     data-stroke-spacing="4">
-                </div>
+                <svg id="fillgauge1" width="100%" height="250" onclick="gauge1.update(NewValue());"></svg>
               </div>
-					</div>
+              <div class="col span_1_of_3">
+                <svg id="fillgauge2" width="100%" height="250" onclick="gauge2.update(NewValue());"></svg>
+              </div>
+              <div class="col span_1_of_3">
+                <svg id="fillgauge3" width="100%" height="250" onclick="gauge3.update(NewValue());"></svg>
+              </div>
+					  </div>
+
+            <div class="section group">
+              <div class="col span_1_of_3">
+                <svg id="fillgauge4" width="100%" height="250" onclick="gauge4.update(NewValue());"></svg>
+              </div>
+              <div class="col span_1_of_3">
+                <svg id="fillgauge5" width="100%" height="250" onclick="gauge5.update(NewValue());"></svg>
+              </div>
+              <div class="col span_1_of_3">
+                <svg id="fillgauge6" width="100%" height="250" onclick="gauge6.update(NewValue());"></svg>
+              </div>
+            </div>
 					<a href="#three" class="goto-next scrolly animated infinite pulse">Next</a>
 				</div>
 			</section>
@@ -298,7 +310,8 @@
         </video>
       </div>
 
-      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+      <script src="scripts/radial.js" language="JavaScript"></script>
       <script type="text/javascript" src="scripts/jquery.min.js"></script>
       <script type="text/javascript" src="scripts/jquery.scrollex.min.js"></script>
       <script type="text/javascript" src="scripts/jquery.scrolly.min.js"></script>
@@ -314,13 +327,11 @@
     <!-- endbuild -->
 
     <script type="text/javascript" src="scripts/fancy.js"></script>
-    <script src="https://use.fontawesome.com/a4ccf049d8.js"></script>
     <script type="text/javascript" src="fancybox/lib/jquery.mousewheel.pack.js"></script>
     <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.6"></script>
     <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
     <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
     <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-    <script type="text/javascript" src="scripts/radial.js"></script>
 
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 

@@ -295,15 +295,4 @@ body {
   }
 }
 
-#progress {
-  padding: 20px;
-}
-
-
-.radial-progress {
-  &__text {
-    font-family: Arial, sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-  }
-}
+.liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
